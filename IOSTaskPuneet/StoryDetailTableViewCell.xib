@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="1200" id="KGk-i7-Jjw" customClass="StoryDetailTableViewCell" customModule="IOSTaskPuneet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="371" height="660"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="371" height="660"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kbv-b1-mUP" userLabel="Story Image View">
+                        <rect key="frame" x="0.0" y="0.0" width="371" height="424"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="kbv-b1-mUP" secondAttribute="height" multiplier="384:439" id="ig0-M5-LXV"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Love this outfit by Anita dongre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4sV-PA-Pb3" userLabel="Story Title Label">
+                        <rect key="frame" x="15" y="444" width="341" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a6a-jx-Uqb" userLabel="Story Description">
+                        <rect key="frame" x="15" y="473" width="341" height="100.5"/>
+                        <string key="text">Today's outfit! #ootd Sheer shirts are always so sexy. Team it up with a bustier inside and it looks elegant and sexy at the same time. I wore my purple sheer shirt with an embellished maxi skirt and statement necklace. Sheer shirts looks fabulous with statement necklaces or layered chains.</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="created this story on 6 January" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FLg-MW-4uU" userLabel="Verb Label">
+                        <rect key="frame" x="180" y="581.5" width="176" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Uka-4u-BHQ">
+                        <rect key="frame" x="15" y="605" width="212" height="20.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LIKES: 431" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ji7-Lc-NWw">
+                                <rect key="frame" x="0.0" y="0.0" width="82" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comments: 15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lpV-um-WPw">
+                                <rect key="frame" x="102" y="0.0" width="110" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="kbv-b1-mUP" secondAttribute="trailing" id="0Hl-cg-wHP"/>
+                    <constraint firstItem="kbv-b1-mUP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="5cu-KK-vap"/>
+                    <constraint firstItem="a6a-jx-Uqb" firstAttribute="trailing" secondItem="4sV-PA-Pb3" secondAttribute="trailing" id="BR8-CI-EKJ"/>
+                    <constraint firstItem="Uka-4u-BHQ" firstAttribute="leading" secondItem="a6a-jx-Uqb" secondAttribute="leading" id="KMk-Qq-Oax"/>
+                    <constraint firstAttribute="trailing" secondItem="4sV-PA-Pb3" secondAttribute="trailing" constant="15" id="PtI-xR-ZO6"/>
+                    <constraint firstItem="a6a-jx-Uqb" firstAttribute="leading" secondItem="4sV-PA-Pb3" secondAttribute="leading" id="Re8-RE-LcE"/>
+                    <constraint firstItem="FLg-MW-4uU" firstAttribute="trailing" secondItem="4sV-PA-Pb3" secondAttribute="trailing" id="URv-DR-1MI"/>
+                    <constraint firstItem="FLg-MW-4uU" firstAttribute="top" secondItem="a6a-jx-Uqb" secondAttribute="bottom" constant="7.5" id="VyF-9e-clS"/>
+                    <constraint firstItem="a6a-jx-Uqb" firstAttribute="top" secondItem="4sV-PA-Pb3" secondAttribute="bottom" constant="5" id="XVi-f4-PhK"/>
+                    <constraint firstItem="4sV-PA-Pb3" firstAttribute="top" secondItem="kbv-b1-mUP" secondAttribute="bottom" constant="20" id="Yk3-yM-39w"/>
+                    <constraint firstItem="Uka-4u-BHQ" firstAttribute="top" secondItem="FLg-MW-4uU" secondAttribute="bottom" constant="9" id="beo-P7-Ebm"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Uka-4u-BHQ" secondAttribute="bottom" constant="15" id="gIw-ge-ujQ"/>
+                    <constraint firstItem="kbv-b1-mUP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="gmi-ct-8AQ"/>
+                    <constraint firstItem="4sV-PA-Pb3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="hkC-7K-BsV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="commentCount" destination="lpV-um-WPw" id="NDJ-3O-QO9"/>
+                <outlet property="likeCount" destination="Ji7-Lc-NWw" id="IN6-pi-vXg"/>
+                <outlet property="storyDescription" destination="a6a-jx-Uqb" id="hgG-jv-7HU"/>
+                <outlet property="storyImageView" destination="kbv-b1-mUP" id="7Ay-EK-5AC"/>
+                <outlet property="storyTitleLabel" destination="4sV-PA-Pb3" id="vzD-vn-M7G"/>
+                <outlet property="verbLabel" destination="FLg-MW-4uU" id="G4k-k8-Wcl"/>
+            </connections>
+            <point key="canvasLocation" x="69.5" y="538"/>
+        </tableViewCell>
+    </objects>
+</document>

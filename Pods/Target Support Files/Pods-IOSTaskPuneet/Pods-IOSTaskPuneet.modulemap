@@ -1,0 +1,6 @@
+framework module Pods_IOSTaskPuneet {
+  umbrella header "Pods-IOSTaskPuneet-umbrella.h"
+
+  export *
+  module * { export * }
+}
